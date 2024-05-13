@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "250179529099",
+    "project_id": "community-2faf9",
+    "storage_bucket": "community-2faf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250179529099:android:6268c52effc2f9f6f6e78e",
+        "android_client_info": {
+          "package_name": "com.example.hackhatonfgimal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPUGY-r25uX1geOsk-X2iyQ-u-tsiP28M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250179529099:android:b71be770e4413cf7f6e78e",
+        "android_client_info": {
+          "package_name": "com.example.hakchaton1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPUGY-r25uX1geOsk-X2iyQ-u-tsiP28M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
