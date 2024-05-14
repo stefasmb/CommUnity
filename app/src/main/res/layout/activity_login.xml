@@ -4,24 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
 android:orientation="vertical"
     android:gravity="center"
-    android:background="#FFAE03"
+    android:background="#E4A41B"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LOGIN">
 
     <EditText
+        android:id="@+id/email"
         android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:autofillHints="emailAddress"
         android:inputType="textEmailAddress"
         android:hint="Email"
-        android:textColorHint="#101219"
-
-
+        android:textColorHint="#6726DA"
     />
     <EditText
+        android:id="@+id/password"
         android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="#6726DA"
         />
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="continua"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+/>
+    <TextView
+        android:id="@+id/move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ED0202"
+        android:textSize="20sp"
+        android:text="Nu ai cont? Creaza-ti!"
+
+
+/>
 </LinearLayout>

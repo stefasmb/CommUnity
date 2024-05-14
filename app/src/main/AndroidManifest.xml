@@ -15,12 +15,6 @@
         <activity
             android:name=".LOGIN"
             android:exported="false" />
-        <activity
-            android:name=".LOGNActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".LOGINActivity2"
-            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
